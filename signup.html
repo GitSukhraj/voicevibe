@@ -16,14 +16,19 @@
             </div>
             <div class="elements">
                 <input type="text" name="username" placeholder="Enter your username">
-                <input type="password" name="password" id="" placeholder="Enter your password">
-                <input type="password" name="confirmPassword" id="" placeholder="Confirm password">
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+
+                <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm password">
+
             </div>
             <div class="button">
-                <button>Signup</button>
+                <button onclick="checkPass()">Signup</button>
+                <p id="notMatch"></p>
             </div>
         </div>
     </div>
 </body>
+
+<script src="js/signup.js"></script>
 
 </html>

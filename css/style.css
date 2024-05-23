@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .signup-form {
@@ -32,10 +33,9 @@ body {
 
 .elements {
     display: flex;
-    flex-direction: column;
     gap: 30px;
     width: 350px;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -43,7 +43,6 @@ body {
 .elements input {
     height: 45px;
     border: none;
-    /* Rimuove il bordo */
     padding-left: 15px;
     font-size: 18px;
     border-radius: 20px;
@@ -53,13 +52,22 @@ body {
     font-size: 18px;
 }
 
+
 .elementi {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+
+    /*
+    
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    max-width: 1200px;
+    
     margin: 0 auto;
     padding: 20px 0px 0px 0px;
+    */
 }
 
 .elementi .logo-text p {

@@ -57,3 +57,67 @@ nav .logo img {
 .createBtn button:hover {
     background-color: #ffce46;
 }
+
+.mainContent {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.createForm {
+    border: 2px solid white;
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.createForm .titleForm {
+    height: 60px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 40px;
+    padding: 40px;
+}
+
+.createForm .titleForm i {
+    font-size: 40px;
+}
+
+.createForm .titleForm p {
+    font-size: 23px;
+}
+
+.createForm form .tTitle {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.createForm form .tTitle p {
+    color: #919090;
+}
+
+.createForm form .tTitle input {
+    width: 100%;
+    height: 35px;
+    outline: none;
+    font-size: 16px;
+    color: #5d5d5d;
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.mainScript {
+    border: 2px solid white;
+    width: 500px;
+    height: 350px;
+}

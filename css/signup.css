@@ -127,8 +127,10 @@ nav .elements ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
 }
+
 
 .signupForm .submit-button button {
     width: 100%;
@@ -145,4 +147,10 @@ nav .elements ul li {
 .signupForm .submit-button button:hover {
     background-color: #ffce46;
     transform: scale(1.05);
+}
+
+.signupForm .submit-button #noAccount {
+    border: 2px solid #fcba03;
+    background-color: white;
+    color: #ffa600;
 }

@@ -4,31 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup to Voicevibe</title>
+    <title>Signup to Chess Arena | Your chess tournament manager</title>
     <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
-    <div class="main">
-        <div class="signup-form">
+    <nav>
+        <div class="logo">
+            <img src="img/logo.png" alt="Chess Arena Logo">
+        </div>
+        <div class="elements">
+            <ul>
+                <li>
+                    <p>Tournament</p>
+                </li>
+                <li>
+                    <p>About</p>
+                </li>
+                <li>Login</li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <button><i class="fa-solid fa-plus"></i>
+                <p>New tournament</p>
+            </button>
+        </div>
+    </nav>
+    <div class="mainSignup">
+        <div class="signupForm">
             <div class="title">
-                <p>Signup</p>
+                <p>Welcome to Chess Arena</p>
             </div>
-            <div class="elements">
-                <input type="text" name="username" placeholder="Enter your username">
-                <input type="password" name="password" id="password" placeholder="Enter your password">
-
-                <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm password">
-
+            <div class="credentials">
+                <div class="input-group email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+                <div class="input-group password">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Enter your password">
+                </div>
             </div>
-            <div class="button">
-                <button onclick="checkPass()">Signup</button>
-                <p id="notMatch"></p>
+            <div class="submit-button">
+                <button type="submit">Sign Up</button>
             </div>
         </div>
     </div>
 </body>
-
-<script src="js/signup.js"></script>
 
 </html>

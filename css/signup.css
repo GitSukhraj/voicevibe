@@ -22,7 +22,7 @@ nav {
 }
 
 nav .logo img {
-    width: 150px;
+    width: 300px;
 }
 
 nav .elements ul {
@@ -95,7 +95,9 @@ nav .elements ul li {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+
 }
+
 
 
 .signupForm .credentials .input-group {

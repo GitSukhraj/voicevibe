@@ -34,26 +34,30 @@
             </button>
         </div>
     </nav>
-    <div class="mainSignup">
-        <div class="signupForm">
-            <div class="title">
-                <p>Welcome to Chess Arena</p>
-            </div>
-            <div class="credentials">
-                <div class="input-group email">
-                    <i class="fa-solid fa-envelope"></i>
-                    <input type="email" placeholder="Enter your email">
+    <form action="inserisciDati.php">
+        <div class="mainSignup">
+            <div class="signupForm">
+
+                <div class="title">
+                    <p>Welcome to Chess Arena</p>
                 </div>
-                <div class="input-group password">
-                    <i class="fa-solid fa-lock"></i>
-                    <input type="password" placeholder="Enter your password">
+                <div class="credentials">
+
+                    <div class="input-group email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Enter your email" name="username">
+                    </div>
+                    <div class="input-group password">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password" id="password" placeholder="Enter your password">
+                    </div>
                 </div>
-            </div>
-            <div class="submit-button">
-                <button type="submit">Sign Up</button>
+                <div class="submit-button">
+                    <button type="submit">Sign Up</button>
+                </div>
             </div>
         </div>
-    </div>
+    </form>
 </body>
 
 </html>

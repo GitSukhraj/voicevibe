@@ -93,3 +93,58 @@ nav .elements ul li {
     cursor: pointer;
     border-bottom: 2px solid orange;
 }
+
+.main {
+    height: 78.6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main .info {
+    width: 500px;
+    height: 500px;
+}
+
+
+.main .other {
+    width: 500px;
+    height: 500px;
+}
+
+.tab {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+
+}
+
+.basic-info {
+    border-left: 1.5px solid rgb(187, 187, 187);
+    border-top: 1.5px solid rgb(187, 187, 187);
+    border-right: 1.5px solid rgb(187, 187, 187);
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.details {
+    border-bottom: 1.5px solid rgb(187, 187, 187);
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

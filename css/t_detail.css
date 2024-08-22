@@ -17,11 +17,11 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 0 20px;
-    height: 100px;
+    height: 125px;
 }
 
 nav {
-    height: 150px;
+    height: 175px;
     background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 55%, rgba(1, 0, 255, 1) 100%);
 }
 
@@ -74,4 +74,22 @@ nav .elements ul li {
 .options p {
     color: white;
     font-size: 19px;
+}
+
+.panel,
+.players,
+.rounds,
+.ranking {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    transition: .1s all ease;
+}
+
+.panel:hover,
+.players:hover,
+.rounds:hover,
+.ranking:hover {
+    cursor: pointer;
+    border-bottom: 2px solid orange;
 }

@@ -152,3 +152,88 @@ nav .elements ul li {
 #detail-content {
     display: none;
 }
+
+.basic-content {
+    height: 450px;
+
+}
+
+.tTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.tTitle i {
+    font-size: 42px;
+}
+
+.tName {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tName p {
+    color: rgb(122, 122, 122);
+}
+
+.tName input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding-left: 20px;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.time {
+    width: 50%;
+}
+
+.time select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.rounds {
+    width: 50%;
+}
+
+.rounds select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.otherInfo {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}

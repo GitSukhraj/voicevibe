@@ -94,6 +94,8 @@ nav .elements ul li {
     border-bottom: 2px solid orange;
 }
 
+
+
 .main {
     height: 78.6vh;
     width: 100%;
@@ -232,6 +234,7 @@ nav .elements ul li {
 }
 
 .otherInfo {
+    padding-top: 20px;
     display: flex;
     gap: 20px;
     width: 90%;
